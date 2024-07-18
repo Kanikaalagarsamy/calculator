@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url('imagescal/calbag.jpg');
+}
+.container{
+    width:100%;
+    height:100vh;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.calculator{
+    background: rgb(110, 38, 38);
+    padding: 20px;
+    border-radius: 15px;
+}
+.calculator form input{
+    border:0;
+    outline:0;
+    width:60px;
+    height:60px;
+    border-radius: 20px;
+    box-shadow: -8px -8px 15px rgba(187, 67, 67, 0.4),5px 5px 10px rgba(205, 64, 64, 0.5);
+    background:burlywood;
+    cursor: pointer;
+    margin: 7px;
+}
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin:20px 0;
+}
+form .display input{
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+}
+form input.equal{
+    width:145px;
+}
+form input.operator{
+    color:rgb(232, 15, 15);
+}
